@@ -1,0 +1,25 @@
+{
+  "name": "shadow-md-mini",
+  "version": "2.0.0",
+  "description": "SHADOW MD - WhatsApp bot with built-in pairing website (no external database)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node scripts/check.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowmd2007/SHADOW-MD-MINI.git"
+  },
+  "author": "RANA FURQAN",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "express": "^4.19.2",
+    "pino": "^9.4.0"
+  }
+}
