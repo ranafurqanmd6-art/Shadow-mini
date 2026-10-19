@@ -16,6 +16,6 @@
     "@whiskeysockets/baileys": "6.7.18",
     "express": "^4.21.2",
     "pino": "^9.6.0",
-    "sharp": "^0.33.5"
+    "sharp": "0.32.6"
   }
 }
