@@ -1,3 +1,0 @@
-import { reply, isOwner } from "../lib/command-utils.js";
-import { features, setFeature } from "../lib/features.js";
-export const command={name:"autovoice",category:"OWNER",description:"Toggle auto-voice mode (requires a TTS provider).",run:async ctx=>{if(!isOwner(ctx))return reply(ctx.sock,ctx.remote,ctx.msg,"⛔ Owner only.");const a=(ctx.args[0]||"").toLowerCase();setFeature("autovoice",["on","off"].includes(a)?a==="on":!features.autovoice);return reply(ctx.sock,ctx.remote,ctx.msg,`🟢 AUTOVOICE ${features.autovoice?"ENABLED":"DISABLED"}\nNote: voice generation needs a configured TTS provider.`);}};
