@@ -1,0 +1,24 @@
+
+{
+  "name": "rana-md",
+  "version": "1.0.0",
+  "description": "RANA MD - Multi-device WhatsApp Bot with 190+ commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.5",
+    "google-tts-api": "^2.0.2",
+    "pino": "^9.5.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.33.5",
+    "wa-sticker-formatter": "^4.4.4"
+  }
+}
